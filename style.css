@@ -1,48 +1,80 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-p{
-    color: dimgray;
+p {
+  color: dimgray;
 }
-h1{
-    font-size: 45px;
-    
+h1 {
+  font-size: 45px;
 }
-.orange-color{
-    color: orange;
+h2 {
+  font-size: 40px;
 }
-.flexible-container{
-    display: flex;
-    margin-bottom: 100px;
-    
+.orange-color {
+  color: orange;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 100px;
 }
 .half-width {
-    width: 50%;
-    padding-left: 5%;
+  width: 50%;
+  padding-left: 5%;
 }
-.half-width img{
-    width: 80%;
-    padding-top: 2%;
+.half-width img {
+  width: 80%;
+  padding-top: 2%;
 }
-.link-button{
-    text-decoration: none;
-    padding: 10px 40px;
-    background-image: linear-gradient(orange,tomato);
-    color: white;
-    border-radius: 5%;
-    font-weight: 700;
+.link-button {
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  border-radius: 5%;
+  font-weight: 700;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
-.dream-big{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right bottom, left top;   
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom, left top;
 }
- .second{
-    padding-right: 7%;
+.second {
+  padding-right: 7%;
+}
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.experience-item {
+  width: 42%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 45px gray;
+}
+#full-stack-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
+}
+#web-developer-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+footer p {
+  height: 50px;
+  color: #201717;
+  text-align: center;
+  background-color: #eeeded;
+  padding-top: 2%;
 }
